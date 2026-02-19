@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "星空服更多物品",
+    "name": "星空服更多物品",
+    "uuid": "CD5B9C70-80CE-1EDC-C0BF-187DD6681FFE",
+    "version": [1, 1, 6],
+    "min_engine_version": [1, 14, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "10CBADA2-4CFD-4F74-7836-AE2BFC9B6B46",
+      "version": [1, 0, 0]
+    }
+  ]
+}

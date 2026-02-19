@@ -1,0 +1,10 @@
+name: Dungeon
+main: top.szzz666.Dungeon.DungeonMain
+version: "1.0.0"
+author: szzz666
+api: ["1.0.0"]
+description: Dungeon plugin
+depend:
+  - EconomyAPI
+softdepend:
+  - Tips

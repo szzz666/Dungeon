@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "starrySkyServerMoreItems",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "magic_stone": {
+      "textures": "textures/items/magic_stone"
+    },
+    "new_year2026": {
+      "textures": "textures/items/new_year2026"
+    },
+    "tp_magic_scroll": {
+      "textures": "textures/items/tp_magic_scroll"
+    },
+    "magic_stone_fragment": {
+      "textures": "textures/items/magic_stone_fragment"
+    }
+  }
+}
