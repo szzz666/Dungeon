@@ -1,8 +1,8 @@
-# Dungeon - Nukkit地下城插件
+# Dungeon - Nukkit-MOT地下城插件
 
 ## 项目简介
 
-Dungeon是一个基于Nukkit服务器的地下城RPG插件，为Minecraft服务器提供丰富的地下城冒险体验。插件包含怪物刷新、资源生成、装备升级、队伍系统等核心功能。
+Dungeon是一个基于Nukkit-MOT服务器的地下城RPG插件，为Minecraft服务器提供丰富的地下城冒险体验。插件包含怪物刷新、资源生成、装备升级、队伍系统等核心功能。
 
 ## 功能特性
 
