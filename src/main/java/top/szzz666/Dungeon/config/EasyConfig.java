@@ -104,8 +104,8 @@ public class EasyConfig {
             }
 
             // 加载现有配置
-            try (InputStream inputStream = Files.newInputStream(Paths.get(configFilePath))) {
-                LinkedHashMap<String, Object> loadedConfig = yaml.load(inputStream);
+            try (InputStream inputStream = new FileInputStream(configFile)) {
+                LinkedHashMap<String, Object> loadedConfig = yaml.load(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
                 if (loadedConfig != null) {
                     config = loadedConfig;
                 }

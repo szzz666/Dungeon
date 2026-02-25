@@ -1,7 +1,6 @@
 command: "rpg"
 地下城世界: "dungeon"
 
-
 掉落材料: { 's_rpg:magic_stone_fragment': 1.0 }
 等级原掉落材料倍率: 1.5
 等级击杀经验倍率: 10.0
@@ -47,13 +46,13 @@ command: "rpg"
   - { 名称: 恶魂, 类型: Ghast, 权重: 15 }
   - { 名称: 凋灵骷髅, 类型: WitherSkeleton, 权重: 40 }
   - { 名称: 僵尸猪人, 类型: ZombiePigman, 权重: 80 }
-  - { 名称: 幻翼, 类型: Phantom, 权重: 30 }
+  - { 名称: 幻翼, 类型: Phantom, 权重: 15 }
   - { 名称: 掠夺者, 类型: Pillager, 权重: 55 }
   - { 名称: 卫道士, 类型: Vindicator, 权重: 40 }
   - { 名称: 唤魔者, 类型: Evoker, 权重: 15 }
   - { 名称: 劫掠兽, 类型: Ravager, 权重: 10 }
   - { 名称: 潜影贝, 类型: Shulker, 权重: 20 }
-  - { 名称: 恼鬼, 类型: Vex, 权重: 25 }
+  - { 名称: 恼鬼, 类型: Vex, 权重: 15 }
   - { 名称: 流浪者, 类型: Stray, 权重: 35 }
   - { 名称: 尸壳, 类型: Husk, 权重: 40 }
   - { 名称: 溺尸, 类型: Drowned, 权重: 40 }
@@ -75,5 +74,3 @@ command: "rpg"
   - { 物品: "minecraft:netherite_ingot", 最小数量: 1,最大数量: 1,权重: 8 }
   - { 物品: "minecraft:oak_planks", 最小数量: 1,最大数量: 64,权重: 120 }
   - { 物品: "minecraft:golden_carrot", 最小数量: 1,最大数量: 16,权重: 30 }
-
-

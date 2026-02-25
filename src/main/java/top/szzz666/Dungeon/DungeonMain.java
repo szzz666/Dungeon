@@ -50,12 +50,6 @@ public class DungeonMain extends PluginBase {
         ConfigPath = getDataFolder().getPath();
         NukkitType = checkServer();
         initConfig();
-        if (isDependencyLoaded("EconomyAPI")) {
-            economyAPI = EconomyAPI.getInstance();
-        }else {
-            nkConsole("&cEconomyAPI未加载", 2);
-            nkServer.shutdown();
-        }
         Generator.addGenerator(DungeonGenerator.class, "dungeon", Generator.TYPE_INFINITE);
         Item.registerCustomItem(ItemMagicStone.class);
         Item.registerCustomItem(ItemMagicStoneFragment.class);
@@ -73,6 +67,12 @@ public class DungeonMain extends PluginBase {
         nkServer.getPluginManager().registerEvents(new CMListener(), this);
         //注册命令
         nkServer.getCommandMap().register(this.getName(), new MyCommand());
+        if (isDependencyLoaded("EconomyAPI")) {
+            economyAPI = EconomyAPI.getInstance();
+        }else {
+            nkConsole("&cEconomyAPI未加载", 2);
+            nkServer.shutdown();
+        }
 //        Enchantment.register(new LevelUpEnchantment(), false);
         if (isDependencyLoaded("Tips")) {
             try {
