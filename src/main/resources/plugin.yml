@@ -1,6 +1,6 @@
 name: Dungeon
 main: top.szzz666.Dungeon.DungeonMain
-version: "1.0.0"
+version: "1.0.1"
 author: szzz666
 api: ["1.0.0"]
 description: Dungeon plugin
